@@ -1,28 +1,9 @@
 {
-  "name": "node_js",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "http": "0.0.1-security",
-    "init": "^0.1.2",
-    "module": "^1.2.5",
-    "modules": "^0.4.0",
-    "url": "^0.11.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raj-vbeasy/app_vbeasy.git"
-  },
-  "bugs": {
-    "url": "https://github.com/raj-vbeasy/app_vbeasy/issues"
-  },
-  "homepage": "https://github.com/raj-vbeasy/app_vbeasy#readme",
-  "description": ""
+    "start": "node app.js"
+  }
 }
