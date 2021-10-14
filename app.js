@@ -33,8 +33,16 @@ var server = http.createServer(function (req, res) {
     if(req.url == '/'){
         res.statusCode = 200; //ok
         res.end(html);
-    
     }
+    else if(req.url == '/about'){
+        res.statusCode = 200; //ok
+        res.end(about);
+    }
+    else
+    {
+        res.statusCode ==  404;
+        res.end('Error 404 occured data not found');
+    }   
 });
 
 // Listen on port 3000, IP defaults to 127.0.0.1
