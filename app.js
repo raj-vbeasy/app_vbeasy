@@ -41,7 +41,7 @@ var server = http.createServer(function (req, res) {
     }
      else{
         res.statusCode ==  404;
-        res.end('Error 404 occured data not found');
+        res.end('<h2>Error 404 occured data not found</h2>');
     }   
 });
 
